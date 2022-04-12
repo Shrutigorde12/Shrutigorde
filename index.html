@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti's Fitness</title>
+</head>
+<link href="http://fonts.cdnfonts.com/css/baloo-bhai" rel="stylesheet">
+                
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    /*css reset*/
+    body{
+        font-family: 'Baloo-bhai',cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gym.jpg.jpg');
+        
+    }
+</style>
+<style>
+    .left{
+        display:inline-block;
+        position: absolute;
+        left: 10px;
+        top: 1px;
+        font-size: 2px;
+/*        border: solid red;*/
+    }
+    .left img{
+        height: 50px;width: 70px;
+        filter:invert(100%);
+        font-size: 5px;
+        
+    }
+    .mid{
+        display:block;
+        width: 40%;
+        margin: auto;
+     /*   border: solid yellow;*/
+    }
+    .left div{
+        line-height: 19px;
+        font-size: 11px;
+        font-weight:bold;
+        text-align: left;
+    }
+    .right{
+        display:inline-block;
+        position: absolute;
+        right: 0px;
+        top: 12px;
+        margin: 20px;
+    /*  border: solid sandybrown;  */
+    }
+    .navbar
+    {
+        display: inline-block;
+    }
+    .navbar li
+    {
+        display: inline-block;
+        font-size: 20px;
+        color: white;
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding: 2px 10px;
+        color: white;
+    }
+    .navbar li a:hover{
+        text-decoration:underline;
+        color: rgb(190, 189, 186);
+    }
+    .btn{
+        font-family: 'Baloo-bhai',cursive;
+        margin:0px 9px ;
+        background-color:black;
+        color: aliceblue;
+        padding: auto;
+        font-size: medium;
+        border:2px solid grey;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+  
+    .container{
+        border: 2px solid white;
+    margin: 105px 58px;
+    padding: 36px;
+    width: 44%;
+    border-radius: 29px;
+    color: white;
+    }
+    .form-group input{
+        font-family: 'Baloo-bhai',cursive;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding:3px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width:90px;
+        margin:auto ;
+        border-radius: 27px;
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <!--left for demo--> 
+        <div class="left">
+            <img src="logoGym.png">
+        <div>Shruti's Fitness</div>
+        </div>
+        <!--mid box for navbar--> 
+        <div class="mid">
+            <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Fitness</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        </div>
+         <!--right  box for buttons--> 
+        <div class="right">
+            <button class="btn">call us now</button><button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the BEST GYM of Pune now...</h1>
+        <form action=" noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
